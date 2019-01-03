@@ -4,11 +4,11 @@ include_once "wxBizDataCrypt.php";
 
 
 $appid = 'wxaab82e75fb44efa9';
-$sessionKey = 'wM7wrCDZ+9ImJBeUKu6mJw==';
+$sessionKey = 'y3fpIXuhz8dE3ymwCXOnNw==';
 
-$encryptedData="eoZO9BGhXyoSJztBmOjn8OVyuYtwQK2E7aRmfkVKUvMF/l1vtMh+lWXi7hBT149u7i6NfioIpo6rgHw24ApxAIAKEIikLCpJr+mjfOlHwVQuX2Vv1DrbAFPbyBPSl/rIxzcw0MeWRPhXJbEI4m5Zd7FW8hAfpIBx2bML/LLnjBwD4ER8HND8R01/Crd7zpzmdwIqO61hhkWn74UyMAenJB5WqOvjMP2MW07B9NRbj/J943xeKpFXgeS+1mdTXfU9S6qGK0akXIK1FAXL/pxlEZdH3d4tjy3e16IqFQyzC6754+Cd2qxvyO62jEdLbfhaZdD8h50ieJ9b44+lBu6ambSK4DqwHZTmPM7ghqdBOmjXyd2nDW0Zx1HsH4DXRHXyhLhu4TUtwf1ChIY5RCM28nCNBOubxNOrOa39oH4C02N4J4IyTMPXw8upScGFNHjKt1kKlP54ujIlp76EWwbusg==";
+$encryptedData="FRNEwzFVxFYO/eB56K/2S0/dEc9Bj2n+h9fucc65IrS633fA42lBLPo+kjUtDZTGrVt9JxYXUrj8jIQRzzCY7mYhVI4yjRuy05IscpyVQkytWhVyAGdSBhdsKcNtIwloTMV8cy1XQSogaKGPMw3yJ5mJZ4Tv+XclZ4KUXjzQl5fZxB0K1DF93UoNUTK+OOjJhS2kCz5DuN18f8P/ld1WxP7PudCW30VBj4imLNmSKBb9LvS/gktDm+uZdJKuTfZAmMrVaZ6xaTW8tja3PqtZzz7vV/+d0JcSJv8drKJ/lXlxTs/T9l3QTzhJ1FAYiIdjhfYXpdA0QV9xRiqIpYh6lSCmCCO5lPYMSxl+1jF+ul2PKhPsq3sMaJjoBvbuMbLxWFR1Il0CHf84bj1lKSBHvdRaiZDIeg4Xa7km/e2EUu8VzZDUK7in85Qu9x+WTU3JGIN3PP+phfl5j7JL8qUNKlRBK74sTXeypWbIDlwHDVvdWWUI+9zii31K9GW70GhiNZj/FwLe1zIfawV6nZ56rQ==";
 
-$iv = 'MAfmo4pdeHtRN+WArB6L8A==';
+$iv = 'fypIsbhiuQN12f++KNOqRw==';
 
 $pc = new WXBizDataCrypt($appid, $sessionKey);
 $errCode = $pc->decryptData($encryptedData, $iv, $data );
